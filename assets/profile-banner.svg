@@ -1,0 +1,35 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Sudeeksh — building thoughtful software</title>
+  <desc id="desc">A dark blue animated banner with moving gradient rings and the words Systems, Data, and Applied AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#132e4b"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#56d6c9"/>
+      <stop offset="0.52" stop-color="#8aa7ff"/>
+      <stop offset="1" stop-color="#bd8bff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="-10" r="190" fill="none" stroke="url(#shine)" stroke-width="1.5" opacity=".35">
+    <animate attributeName="r" values="170;215;170" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".18;.42;.18" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1030" cy="-5" r="135" fill="none" stroke="url(#shine)" stroke-width="1" opacity=".28">
+    <animate attributeName="r" values="145;115;145" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="860" cy="215" r="3" fill="#5bd9d0">
+    <animate attributeName="cy" values="215;198;215" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="95" r="2.5" fill="#a58bff">
+    <animate attributeName="cx" values="1100;1086;1100" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="76" y="112" fill="#f3f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="49" font-weight="700" letter-spacing="-.8">BUILD WITH CURIOSITY</text>
+  <text x="80" y="158" fill="#b9c9df" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="2">SYSTEMS  ·  DATA  ·  APPLIED AI</text>
+  <rect x="80" y="190" width="208" height="3" rx="2" fill="url(#shine)">
+    <animate attributeName="width" values="90;208;145;208" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
