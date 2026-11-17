@@ -25,7 +25,7 @@ I learn by building: exploring how software works under the hood, designing reli
 | [AisleIQ](https://github.com/sudeeksh02/aisleiq-evidence-grounded-product-discovery) | Evidence-grounded product discovery with hybrid retrieval, hard constraints, and review intelligence. |
 | [Incident Intelligence Platform](https://github.com/sudeeksh02/incident-intelligence-platform) | A software engineering project focused on incident intelligence. |
 | [DBMS Miniproject](https://github.com/sudeeksh02/DBMS-Miniproject) | A database-backed application built with TypeScript and PostgreSQL. |
-| [SWE-EVO](https://github.com/sudeeksh02/SWE-EVO) | A software engineering project developed with a team. |
+| [Flight Reservation System](https://github.com/sudeeksh02/L5_50_flight_reservation_system) | A Python flight reservation project. |
 
 ### Toolbox
 
@@ -41,3 +41,4 @@ I learn by building: exploring how software works under the hood, designing reli
 *Always learning. Always building.*
 
 </div>
+
